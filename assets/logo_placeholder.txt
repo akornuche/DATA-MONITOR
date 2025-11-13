@@ -1,0 +1,31 @@
+# Data Monitor Logo Placeholder
+# 
+# This is a placeholder file. For a production application, you would include:
+# - A logo.png file (e.g., 256x256 pixels)
+# - An icon.ico file for the Windows executable
+# 
+# You can create these using tools like:
+# - GIMP (free, open-source)
+# - Adobe Illustrator
+# - Online icon generators
+# 
+# Recommended formats:
+# - logo.png: 256x256 or 512x512 PNG with transparency
+# - icon.ico: Multi-resolution .ico file (16x16, 32x32, 48x48, 256x256)
+#
+# To add the icon to the executable, update packaging/pyinstaller.spec:
+# - Change: icon=None
+# - To: icon='assets/icon.ico'
+
+# ASCII Art Logo (for fun!)
+"""
+╔═══════════════════════════════════════╗
+║                                       ║
+║         DATA MONITOR v1.0             ║
+║                                       ║
+║    📊 Network Usage Tracking          ║
+║    🔍 Per-Process Monitoring          ║
+║    💡 Smart Recommendations           ║
+║                                       ║
+╚═══════════════════════════════════════╝
+"""
